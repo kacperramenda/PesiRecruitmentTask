@@ -11,7 +11,7 @@ namespace Pesi\FreeShippingCounter;
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
-class Counter {
+class FreeShippingCounter {
     const DEFAULT_THRESHOLD = 200.00;
 
     public function __construct()
@@ -106,4 +106,5 @@ class Counter {
     }
 }
 
-new Counter();
+
+new FreeShippingCounter();
