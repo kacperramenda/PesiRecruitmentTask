@@ -16,7 +16,7 @@ Wtyczka sprawdza czy aktualnie przeglądany produkt kwalifikuje się do darmowej
 
 **Dane wyjściowe zabezpieczone są `esc_attr` oraz `wp_kses_post`
 
-** CSS jest ładowany tylko na stronie produktu
+**CSS jest ładowany tylko na stronie produktu
 
 Wtyczka jest elastyczna. Domyślny próg darmowej dostawy (200.00) można zmienić za pomocą filtra w pliku `functions.php` motywu:
 
